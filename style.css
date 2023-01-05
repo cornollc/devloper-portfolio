@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header and navigation style */
+.hader
+{
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    
+}
+
+nav
+{
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav h2
+{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.header-primary
+{
+    
+    color: #FD6E0A;
+}
+header nav
+
+{
+    display: flex;
+    
+}
+header nav ul
+{
+    display: flex;
+    align-items: center;
+}
+header nav ul li
+{
+    margin-right: 50px;
+    list-style: none;
+}
+.btn-primary
+{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+    
+    top: 30px;
+}
+/* banner style */
+.banner
+{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-sub-title
+{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title
+{
+    font-weight: 700;
+    font-size: 85px;    
+}
+.banner-para
+{
+    margin-bottom: 30px;
+}
+.hbackground-image
+{
+    margin-left: 500px;
+}
+/* main item */
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+/* About me */
+.about-me
+{
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px ;
+    padding: 130px 150px;
+    
+}
+.about-comtac
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.b0
+{
+    max-width: 909px;
+    margin: 0 auto;
+}
+.b1
+{
+    margin-top: 100px;
+    
+    
+}
+.skeelcontiner
+{
+    height: 500px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 60px auto;
+
+
+}
+.skil
+{
+    height: 380px;
+    width: 270px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    
+    
+}
+.skil p
+{
+    margin-top: 60px;
+    
+}
+.sk
+{
+    height: 243px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.headline
+{
+   
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+/* Resume style */
+.resumm
+{
+    display: flex;
+}
+
+.resumm .education p
+{
+    border-bottom: 1.50px solid black;
+    
+}
+.resumm .ex p
+{
+    border-bottom: 1.50px solid black;
+}
+.ex
+{
+    margin-left: 10px;
+}
+.downoldecv
+{
+    text-align: center;
+    margin-top: 50px;
+}
+main-footer
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    
+}
+.footer-headline
+{
+    margin: 0 50px 0 0;
+}
+.sms-footer input
+{
+    margin-top:20px;
+    
+}
+.sms-footer textarea
+{
+    margin-top: 20px;
+}
+.submit-button
+{
+    display: block;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    width: 150px;
+    height: 64px;
+}
